@@ -1,6 +1,6 @@
 #conteneur{
 	display : flex;
-	background-color: blue;
+	background-color: grey;
 	flex-direction : column;
 	align-items : center;
 }
@@ -8,3 +8,83 @@
 li {
     display: inline;
 }
+
+#saisie{
+width: 50em;
+height: 3em;
+background: white;
+}
+
+#footer{
+width: 100%;
+    
+}
+.france{
+background: white;
+padding-left: 30px;
+display: flex;
+justify-content: ;
+}
+.legal{
+ padding-left: 30px;
+ width: 100%;  
+}
+
+.logo{
+background: LightBlue;  
+    
+}
+
+.boutons{
+    background: #dce0e8;  
+    color: #585d66;
+    font-family: sans-serif;
+    margin-top: 2em;
+    margin-right: 5px;
+}
+
+#boutons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.boutons:hover{
+    color: black;
+    box-shadow:1px 2px 3px #666 ;
+    background: #f7f8f9;
+ 
+}
+
+#connexion{
+    background: blue;
+    color: white;
+    font-family: sans-serif;
+}
+.grrr{
+    text-decoration: none;
+}
+.grrr:hover{
+    text-decoration: underline
+}
+
+#saisie:hover{
+    box-shadow:5px 10px 5px #666 ;
+}
+
+.navbar {
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+#navbar{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+}
+.logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+}
+

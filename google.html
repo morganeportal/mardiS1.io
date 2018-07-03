@@ -3,35 +3,54 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Introduction à JavaScript</title>
+    <title>Google</title>
 
     <link rel="stylesheet" href="GGLstyle.css" />
-	
 </head>
 
+<body>
+    
 <div id="conteneur">
 
-    <div class="navbar">
-    	<li>Gmail</li>
-    	<li>Images</li>
-    	<li>Connexion</li>
-    	
-
+    <div id="navbar">
+        <ul>
+            <li><a class = "navbar" href ="https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a></li>
+            <li><a class = "navbar" href ="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></li>
+            <li><a class=""></a></li>
+            <li><button id="connexion" type="button" onclick = "">Connexion</button>
+</li>
+        </ul>
     </div>
 
-    <div class="main">
-    	<div class="image google"></div>
-    	<div class="la barre d'entrée"></div>
-    	<div class="les boutons"></div>
-
-
+    <div id="main">
+        <div class="logo">
+            <img src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="logo de Google" height="92" width="272"/> 
+        </div>
+    	<div class= "saisie">
+            <input id="saisie" maxlength="40048" name="q" title="Rechercher" type="text" value="" >
+        </div>
+    	<div id ="boutons" >
+            <span >
+            <button  class="boutons" type="button" onclick = "">Recherche Google</button>
+            </span>
+            <span ><button class="boutons" type="button" onclick = "">J'ai de la chance</button></span>
+        </div>
     </div>
 
-    <div class="footer">
-    	<div class="barre France">France</div>
-    	<div class="barre d'en-bas">
-    		<p>Publicité Entreprise A propos </p>
-        <p>Info conso Confidentialité Paramètres</p>
+    <div id="footer">
+    	<div class="france">France</div>
+    	<div class="legal">
+            <ul id="nav gauche">
+                <li ><a class="grrr" href="https://adwords.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a></li>
+                <li ><a class="grrr" href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a></li>
+                <li ><a class="grrr" href="https://www.google.fr/intl/fr_fr/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a></li>
+            </ul>
+            <ul id="nav droite">
+                <li ><a class="grrr" href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=1-636662138413386227-3634583116&rd=1">Info consommateurs</a></li>
+                <li ><a class="grrr" href="https://policies.google.com/privacy?hl=fr&gl=fr">confidentialité</a></li>
+                <li ><a class="grrr" href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a></li>
+                <li ><a class="grrr" href="">Paramètres</a></li>
+            </ul>
     	</div>
     </div>
 
