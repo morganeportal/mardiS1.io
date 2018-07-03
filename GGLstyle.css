@@ -1,6 +1,4 @@
 
-
-
 li {
     display: inline;
 }
@@ -13,6 +11,7 @@ li {
         justify-content: flex-end;
         position : fixed;
         top:0;
+        font-family: Arial;
 
 }
 
@@ -25,7 +24,7 @@ li {
 
 .navbar:hover{
     text-decoration: underline;
- 
+
 }
 
 #connexion{
@@ -33,12 +32,13 @@ li {
     color: white;
     font-family: sans-serif;
     margin-right: 40px;
+    padding: 13px 9px;
 }
 
 
 #main{
 	position: fixed;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	transform: translate(-50%,-50%);
     display: flex;
@@ -50,38 +50,37 @@ li {
 
 
 .logo{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
 }
-
-
 
 
 #saisie{
-width: 50em;
-height: 3em;
-background: white;
+  width: 50em;
+  height: 3em;
+  background: white;
+  box-shadow: 1px 1px 3px grey;
 }
 
 #saisie:hover{
-    box-shadow:5px 10px 5px #666 ;
+    box-shadow:2px 2px 5px #666 ;
 }
 
 
 .boutons{
-    background: #dce0e8;  
+    background: #dce0e8;
     color: #585d66;
     font-family: sans-serif;
     margin-top: 2em;
     margin-right: 5px;
+    padding: 12px 22px;
 }
 
 #boutons{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
 }
 
 .boutons:hover{
@@ -101,24 +100,26 @@ bottom:0;
 }
 
 .france{
-background: lightgrey;
-padding-left: 30px;
-display: flex;
-align-items: : center;
+  background: lightgrey;
+  padding-left: 30px;
+  display: flex;
+  align-items: : center;
+  padding-top: 5px;
+  padding-bottom: 5px
+  border: solid  2px;
 }
 
 .legal{
- padding-left: 0px;
- margin-right: 10px;
- width: 100%;
- background: lightgrey;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+  padding-left: 0px;
+  margin-right: 10px;
+  width: 100%;
+  background: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 #navgauche{
-
 	padding-left:30px;
 }
 #navdroite{
@@ -127,10 +128,10 @@ align-items: : center;
 }
 
 .grrr{
-    text-decoration: none;
-    color :black;
-    padding-right:10px;
-} 
+  text-decoration: none;
+  color :black;
+  padding-right:10px;
+}
 .grrr:hover{
     text-decoration: underline
 }
@@ -138,7 +139,3 @@ align-items: : center;
 header, main, footer {
     flex-shrink: 0;
 }
-
-
-
-
