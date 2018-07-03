@@ -1,13 +1,68 @@
+body {
+    width: 100%;
+    height: 100%;
+}
 #conteneur{
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
 	display : flex;
 	background-color: grey;
 	flex-direction : column;
-	align-items : center;
+	align-items : stretch;
+    justify-content: space-between;
 }
 
 li {
     display: inline;
 }
+
+
+
+#navbar{
+        width: 100%;
+        display: flex;
+        background-color: pink;
+        justify-content: flex-end;
+        padding-right: 30px;
+
+}
+
+.navbar {
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+
+.navbar:hover{
+    text-decoration: underline;
+ 
+}
+
+#connexion{
+    background: blue;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+#main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+}
+
+
+
 
 #saisie{
 width: 50em;
@@ -15,25 +70,10 @@ height: 3em;
 background: white;
 }
 
-#footer{
-width: 100%;
-    
-}
-.france{
-background: white;
-padding-left: 30px;
-display: flex;
-justify-content: ;
-}
-.legal{
- padding-left: 30px;
- width: 100%;  
+#saisie:hover{
+    box-shadow:5px 10px 5px #666 ;
 }
 
-.logo{
-background: LightBlue;  
-    
-}
 
 .boutons{
     background: #dce0e8;  
@@ -47,44 +87,47 @@ background: LightBlue;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
 }
+
 .boutons:hover{
     color: black;
     box-shadow:1px 2px 3px #666 ;
     background: #f7f8f9;
- 
 }
 
-#connexion{
-    background: blue;
-    color: white;
-    font-family: sans-serif;
+
+
+#footer{
+width: 100%;
+background: yellow;
+
 }
+
+.france{
+background: white;
+padding-left: 30px;
+display: flex;
+justify-content: ;
+}
+
+.legal{
+ padding-left: 30px;
+ width: 100%;
+ background: white;
+}
+
 .grrr{
     text-decoration: none;
-}
+} 
 .grrr:hover{
     text-decoration: underline
 }
 
-#saisie:hover{
-    box-shadow:5px 10px 5px #666 ;
+header, main, footer {
+    flex-shrink: 0;
 }
 
-.navbar {
-    text-decoration: none;
-    padding-right: 10px;
 
-}
-#navbar{
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 30px;
-}
-.logo{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
-}
+
 
