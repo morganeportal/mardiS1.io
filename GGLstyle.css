@@ -101,17 +101,17 @@ bottom:0;
 }
 
 .france{
-background: white;
+background: lightgrey;
 padding-left: 30px;
 display: flex;
-justify-content: ;
+align-items: : center;
 }
 
 .legal{
  padding-left: 0px;
  margin-right: 10px;
  width: 100%;
- background: white;
+ background: lightgrey;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
